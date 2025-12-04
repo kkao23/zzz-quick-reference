@@ -2,8 +2,10 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders the header', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const headerElement = screen.getByText(/Zenless Zone Zero Quick Guide/i);
+  expect(headerElement).toBeInTheDocument();
+  const characterElement = screen.getByRole('heading', { name: /Anby Demara/i });
+  expect(characterElement).toBeInTheDocument();
 });
