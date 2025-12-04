@@ -37,6 +37,7 @@ function App() {
   const dpsCharacters = characters.filter(c => c.role === 'DPS');
   const offFieldDpsCharacters = characters.filter(c => c.role === 'Off-field DPS');
   const supportCharacters = characters.filter(c => c.role === 'Support');
+  const stunnerCharacters = characters.filter(c => c.role === 'Stunner');
 
   return (
     <ThemeProvider theme={darkTheme}>
@@ -51,7 +52,7 @@ function App() {
         </AppBar>
         <Container component="main" sx={{ mt: 4, mb: 4 }}>
           <div>
-            {[{ title: 'DPS', list: dpsCharacters }, { title: 'Off-field DPS', list: offFieldDpsCharacters }, { title: 'Support', list: supportCharacters }].map(group => (
+            {[{ title: 'DPS', list: dpsCharacters }, { title: 'Off-field DPS', list: offFieldDpsCharacters }, { title: 'Support', list: supportCharacters }, { title: 'Stunner', list: stunnerCharacters }].map(group => (
               <Accordion key={group.title} defaultExpanded>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                   <Typography variant="h6">{group.title}</Typography>
