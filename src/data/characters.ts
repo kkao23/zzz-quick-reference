@@ -17,7 +17,7 @@ export const characters: Character[] = [
   { id: 'seed', name: 'Seed', imageFile: 'seed.webp', role: 'DPS', guide: 'Placeholder guide for Seed.' },
   { id: 'yidhari', name: 'Yidhari', imageFile: 'yidhari.webp', role: 'DPS', guide: 'Hold basic to spin to win. Ex special restores health. Can also parry during spin with Ex special' },
   { id: 'hugo', name: 'Hugo', imageFile: 'hugo.webp', role: 'DPS', guide: 'Stun the enemy and ult or hold Ex special immediately' },
-  { id: 'janedoe', name: 'Jane Doe', imageFile: 'janedoe.webp', role: 'DPS', guide: 'Placeholder guide for Jane Doe.' },
+  { id: 'janedoe', name: 'Jane Doe', imageFile: 'janedoe.webp', role: 'DPS', guide: 'Gauge fills when you perfect dodge or dodge counter. Does more anomaly buildup when the gauge is full. Has two dodges' },
   { id: 'manato', name: 'Manato', imageFile: 'manato.webp', role: 'DPS', guide: 'Hold Special Attack to instantly fill his gauge. Once the gauge is full, mash Basic Attacks. When your HP gets dangerously low or you need a burst, use his EX Special to nuke the enemy and heal himself for 33% of his max HP' },
   { id: 'piper', name: 'Piper', imageFile: 'piper.webp', role: 'DPS', guide: 'Placeholder guide for Piper.' },
   { id: 'zhuyuan', name: 'Zhu Yuan', imageFile: 'zhuyuan.webp', role: 'DPS', guide: 'Placeholder guide for Zhu Yuan.' },
